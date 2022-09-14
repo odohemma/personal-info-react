@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 550px;
+    height: 868px;
+
+
+    background: #23252C;
+    margin: auto;
+}
+
+.header-picture {
+    width: 317px;
+    /*height: 317px;*/
+    left: 116px;
+    top: 44px;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 44px;
+    margin-left: 116px;
+}
+
+
+.main {
+    width: 317px;
+    height: 399px;
+    left: 116px;
+    top: 361px;
+
+    background: #1A1B21;
+    margin-top: -4px;
+    margin-left: 116px;
+}
+
+.full-name {
+
+    left: 186px;
+    top: 382px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #FFFFFF;
+    padding-top: 21px;
+}
+
+.job-title{
+
+    left: 186px;
+    top: 414px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #F3BF99;
+    margin-top: 6px;
+}
+
+.website {
+
+    left: 161px;
+    top: 437px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* identical to box height, or 15px */
+
+    text-align: center;
+
+    color: #F5F5F5;
+    margin-top: 9px;
+    margin-bottom: 16px;
+    
+}
+
+.button {
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 32px;
+    
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+
+    width: 247px;
+    height: 34px;
+    left: 151px;
+    top: 469px;
+
+    /* white */
+
+    background: #FFFFFF;
+    /* gray/300 */
+
+    border: 1px solid #D1D5DB;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.mail {
+    /* Mail */
+
+    width: 16px;
+    height: 16px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;    
+}
+
+.email-text {
+    /* Text */
+
+
+    width: 36px;
+    height: 16px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+
+    /* gray/700 */
+
+    color: #374151;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.text-header {
+
+    left: 151px;
+    top: 535px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #F5F5F5;
+    margin-left: 35px;
+}
+
+.text {
+
+    left: 151px;
+    top: 561px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+
+
+    color: #DCDCDC;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 27px;
+}
+
+.footer {
+    width: 317px;
+    height: 64px;
+    left: 116px;
+    top: 760px;
+
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    margin-left: 116px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 48px;
+    padding-right: 48px;
+}
